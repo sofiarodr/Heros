@@ -1,0 +1,172 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+    background-color: #F3F3F3;
+}
+#Descuentos{
+    background-color:rgba(28, 209, 176, 1);
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 0pt;
+
+}
+#titulo{
+    background-color:rgba(0, 102, 159, 1);
+    position: absolute;
+    width: 1349px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0em;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+/***** Section *****/
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/***** articles *****/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    margin: 10px;
+    position:relative;
+    width: 90%;
+    border: top radius 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+/***** SECTION *****/
+h1{
+    background-color: #00669F;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.i{
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 4%;
+    bottom: 4%;
+    color:rgba(204, 36, 36, 1);}
+
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18,75px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 3%;
+}
+
+.fondocard{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;}
+
+.image{ position: relative;
+    justify-content:center;
+    border-radius: 50%;
+    top: 10%;
+    width: 40%;}
+
+button{ background-color: #00669F;
+    border-radius: 5px;
+    border-style: none; 
+    color: #F3F3F3;
+    height: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 128px;
+}
+footer{
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footerimage{
+    width: 20%;
+}
+/********** MEDIA QUERIES **********/
+
+@media (min-width: 640px){
+
+    /********* Tablets *********/
+    
+    #descuentos{
+        font-size: 24px;
+    }
+    
+    h1{
+        font-size: 36px;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+    
+    .characterpicture{
+        border-radius: 50%;
+        position: absolute;
+        top: 20%;
+        width: 40%;
+    }
+    
+    p{
+        margin-bottom: 30%;
+    }
+    
+    button{
+        position: absolute;
+        bottom:0px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 24px;    
+    }
+    
+    footer img{
+        width: 10%;
+    }
+    }
+    
+    @media (min-width: 640px){
+    /**** Desktop ****/
+    }
